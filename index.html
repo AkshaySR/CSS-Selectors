@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div class="selectors">
+        <h1>Universal Selectors</h1>
+        <p>The CSS universal selector (*) matches elements of any type.</p>
+        <p>ns|* - matches all elements in namespace ns <br>
+            *|* - matches all elements<br>
+            |* - matches all elements without any declared namespace</p>
+        <h3>Syntax</h3>
+        <p>* { style properties }</p>
+        <span class="example">Example :
+            *{
+            margin :10px;
+            }
+            </span>
+        <br>
+        <span class="example">
+        *.example{
+            color: yellow;
+            font-size: 15px;
+        }
+        </span>
+    </div>
+
+
+    <div class="selectors">
+        <h1>Type Selectors</h1>
+        <p>The CSS type selector matches elements by node name. In other words, it selects all elements of the given type within a document.
+            They are also called element selectors because we use the element's HTML tag as the selector</p>
+        <h3>Syntax</h3>
+        <p>element { style properties }</p>
+        <span class="example">Example :
+            p {
+            color: red;
+            }
+        </span>
+    </div>
+    <div class="selectors class-selectors">
+        <h1>Class Selectors</h1>
+        <p>The CSS class selector matches elements based on the contents of their class attribute.</p>
+        <h3>Syntax</h3>
+        <p>.class_name { style properties }</p>
+        <span class="example">Example :
+            .class-selectors {
+            background: #777777;
+            }
+        </span>
+    </div>
+
+    <div class="selectors">
+        <div id="id-selector">
+            <h1>Class Selectors</h1>
+            <p>The CSS ID selector matches an element based on the value of its id attribute.
+                In order for the element to be selected, its ID attribute must match exactly the value given in the selector.</p>
+            <h3>Syntax</h3>
+            <p>#id_value { style properties }</p>
+            <span class="example">Example :
+                .class-selectors {
+                background: #777777;
+                }
+            </span>
+        </div>
+    </div>
+    <br>
+    <div class="selectors">
+            <h1>Attribute Selectors</h1>
+            <p>The CSS attribute selector matches elements based on the presence or value of a given attribute.</p>
+            <p>[attr]</p>
+            <p>[attr=value]</p>
+            <p>[attr~=value]</p>
+            <p>[attr|=value]</p>
+
+    </div>
+
+</body>
+</html>

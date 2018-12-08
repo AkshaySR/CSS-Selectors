@@ -1,0 +1,35 @@
+*{
+    margin :10px;
+}
+
+*.example{
+    color: yellow;
+    font-size: 15px;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+p {
+    color : white;
+    font-size: 25px;
+}
+
+h1, h3 {
+    color : darkblue;
+}
+
+.selectors {
+    background: #777777;
+}
+
+.class-selectors {
+    background: #777777;
+}
+
+#id-selector p{
+ color :lightgreen;
+}
+
+
